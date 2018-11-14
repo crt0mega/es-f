@@ -33,7 +33,7 @@ class esf_Plugin_Module_RSS extends esf_Plugin {
     if (!$user = esf_User::getActual()) return;
 
     TplData::add('HtmlHeader.Raw',
-      sprintf('<link rel="alternate" type="application/rss+xml "'
+      sprintf('<link rel="alternate" type="application/rss+xml" '
              .'href="index.php?module=rss&amp;%1$s=%3$s" '
              .'title="RSS Feed of auctions for %2$s">'."\n",
               urlencode(APPID), $user, urlencode(MD5Encryptor::encrypt($user))));
