@@ -74,7 +74,7 @@
     Run system calls as separate user than your frontend runs as
     (mostly the web server user).
     <br> To learn how to setup such a constellation, please take a look at this
-    <a class="extern" href="http://www.es-f.com/sudo.41.html">HowTo</a>.
+    <a class="extern" href="https://web.archive.org/web/20140131061828/http://es-f.com:80/sudo.41.html">HowTo</a>.
   </div>
 </div>
 
